@@ -1,10 +1,9 @@
 import React from "react";
-import Setstate from "./count";
-
+import PassingProp from "./passingProp";
 function App() {
   return (
     <div className="App">
-      <Setstate/>
+      <PassingProp/>
     </div>
   );
 }

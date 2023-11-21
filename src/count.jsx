@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Setstate() {
+function useStateFunction() {
     const [count, setCount] = useState([]);
 let names = ["Beryllz","Hayacinth","Cavern"]
 
@@ -14,4 +14,4 @@ let names = ["Beryllz","Hayacinth","Cavern"]
   )
 }
 
-export default Setstate
+export default useStateFunction
